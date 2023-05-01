@@ -75,6 +75,7 @@ GEM
       rake (>= 10.4, < 14.0)
     autoprefixer-rails (10.4.13.0)
       execjs (~> 2)
+    bcrypt (3.1.18)
     bindex (0.8.1)
     bootsnap (1.16.0)
       msgpack (~> 1.2)
@@ -271,6 +272,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
+  bcrypt (~> 3.1.7)
   bootsnap
   bootstrap (~> 4.0.0)
   capybara
