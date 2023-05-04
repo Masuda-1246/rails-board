@@ -17,7 +17,7 @@
               <%= link_to 'マイページ', mypage_path, class: 'dropdown-item' %>
             </li>
             <li class="nav-item">
-              <%= link_to 'ログアウト', logout_path, method: :delete, class: 'dropdown-item' %>
+              <%= button_to 'ログアウト', logout_path, method: :delete, class: 'dropdown-item' %>
             </li>
           <% else %>
             <li class="nav-item">
